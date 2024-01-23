@@ -13,19 +13,21 @@
 </head>
 <body>
     <!--Header-->
-    <header id="header" class="shadow bg-light">
+    <header id="header" class="bg-light">
         <nav class="container nav-bar">
             <a href="/index.html">Glim</a>
 
             <!--Collapse on toggle button click-->
-            <div class="collapse">
-              <ul class="navbar-nav">
-                <a href="#" class="nav-link">Home</a>
-                <a href="#" class="nav-link">Blog</a>
-                <a href="#" class="nav-link">Pages</a>
-                <a href="#" class="nav-link">Categories</a>
-                <a href="#" class="nav-link">About</a>
-                <a href="#" class="nav-link">Contact</a>
+            <div class="menu" id="menu">
+              <ul class="list">
+                <li class="list-item"><a href="#" class="nav-link current">Home</a></li>
+                <li class="list-item"><a href="#" class="nav-link">Categories</a></li>
+                <li class="list-item"><a href="#" class="nav-link">Reviews</a></li>
+                <li class="list-item"><a href="#" class="nav-link">News</a></li>
+                <li class="list-item"><a href="#" class="nav-link">Membership</a></li>
+                <li class="list-item"><a href="#" class="nav-link">Contact</a></li>
+                <li class="list-item"><a href="#" class="nav-link screen-lg-hidden">Sign in</a></li>
+                <li class="list-item"><a href="#" class="nav-link screen-lg-hidden ">Sign up</a></li>
               </ul>
             </div>
 
@@ -39,11 +41,16 @@
                     <a href="#" class="nav-link"><i class="fab fa-twitter"></i></a>
                     <a href="#" class="nav-link"><i class="fab fa-instagram"></i></a>
                     <a href="#" class="nav-link"><i class="fab fa-dribble"></i></a>
+                    <button class="btn plaace-items-center" id="theme-toggle-btn">
+                    <i class="ri-sun-line sun-icon"></i>
+                    <i class="ri-moon-line moon-icon"></i>
+                </button>
                 </ul>
             </div>
         </nav>
 
     </header>
+    
     
         
 </body>
